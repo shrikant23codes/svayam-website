@@ -1,7 +1,10 @@
 ---
 ---
 
-@import "minima";
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting";
 @import "collapsible-widget";
 
 // Blog list page styles
