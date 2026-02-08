@@ -1,0 +1,12 @@
+books:
+  - title: "Around India in 80 trains"
+    author: "Monisha Rajesh"
+    image: "/assets/images/books/around-india-in-80-trains.webp"
+    status: "Finished Jan 2026"
+    
+  - title: "Shoe Dog"
+    subtitle: "A Memoir by the Creator of NIKE"
+    author: "Phil Knight"
+    image: "/assets/images/books/shoe-dog.jpg"
+    status: "Reading"
+    link: "https://www.amazon.com/..."

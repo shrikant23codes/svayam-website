@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="summary h-entry" itemscope itemtype="http://schema.org/Article">
+
+  <header class="summary-header">
+    <h1 class="summary-title p-name" itemprop="name headline">
+      {{ page.book_title }}{% if page.author %} - {{ page.author }}{% endif %}
+    </h1>
+    <p class="summary-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+    </p>
+  </header>
+
+  <div class="summary-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

@@ -1,0 +1,88 @@
+/* Collapsible Widget Styling - Override minima constraints */
+
+/* Make the page content wider */
+.page-content {
+  padding: 0;
+}
+
+.post,
+.page {
+  padding: 0;
+  max-width: none;
+  margin: 0;
+}
+
+.collapsible-widget {
+  width: 100%;
+  margin: 40px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  padding: 0;
+}
+
+.widget-section {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.widget-section:last-child {
+  border-bottom: none;
+}
+
+.widget-header {
+  width: 100%;
+  padding: 16px 40px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.widget-header:hover {
+  background-color: #f0f0f0;
+}
+
+.header-title {
+  text-align: left;
+}
+
+.toggle-icon {
+  font-size: 16px;
+  transition: transform 0.3s;
+  color: #666;
+}
+
+.widget-content {
+  padding: 12px 40px 16px 40px;
+  background-color: #fff;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px;
+  }
+}
+
+.content-item {
+  padding: 12px 0;
+  color: #555;
+  font-size: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.content-item:last-child {
+  border-bottom: none;
+}
