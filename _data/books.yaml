@@ -1,12 +1,54 @@
-books:
-  - title: "Around India in 80 trains"
-    author: "Monisha Rajesh"
-    image: "/assets/images/books/around-india-in-80-trains.webp"
-    status: "Finished Jan 2026"
-    
-  - title: "Shoe Dog"
-    subtitle: "A Memoir by the Creator of NIKE"
-    author: "Phil Knight"
-    image: "/assets/images/books/shoe-dog.jpg"
-    status: "Reading"
-    link: "https://www.amazon.com/..."
+- title: "Around India in 80 Trains"
+  author: "Monisha Rajesh"
+  year: 2026
+  goodreads: "https://www.goodreads.com/book/show/15837733-around-india-in-80-trains"
+  
+- title: "The Monuments Men"
+  author: "Robert M. Edsel"
+  year: 2026
+  goodreads: "https://www.goodreads.com/book/show/6514074-the-monuments-men"
+  
+- title: "The Man Who Loved Only Numbers: Paul Erdos"
+  author: "Paul Hoffman"
+  year: 2026
+  goodreads: "https://www.goodreads.com/book/show/714583.The_Man_Who_Loved_Only_Numbers"
+
+- title: "Complications"
+  author: "Atul Gawande"
+  year: 2025
+  goodreads: "https://www.goodreads.com/book/show/4477.Complications"
+
+- title: "The Penguin Book of Indian Journeys"
+  author: "Dom Moraes"
+  year: 2025
+  goodreads: "https://www.goodreads.com/book/show/1602360.The_Penguin_Book_of_Indian_Journeys"
+
+- title: "The Maruti Story"
+  author: "R C Bhargava"
+  year: 2025
+  goodreads: "https://www.goodreads.com/book/show/7922554-the-maruti-story---how-a-public-sector-company-put-india-on-wheels"
+
+- title: "The Formula"
+  author: "J Robinson, J Clegg"
+  year: 2025
+  goodreads: "https://www.goodreads.com/book/show/176822898-the-formula"
+
+- title: "Forging Mettle: Nrupender Rao and the Pennar Story"
+  author: "Pavan C Lall"
+  year: 2025
+  goodreads: "https://www.goodreads.com/book/show/61961325-forging-mettle"
+
+- title: "You Have Not Yet Heard Your Favourite Song"
+  author: "Glenn McDonald"
+  year: 2025
+  goodreads: "https://www.goodreads.com/book/show/199504414-you-have-not-yet-heard-your-favourite-song"
+
+- title: "History Men: Jadunath Sarkar, G.S. Sardesai, Raghubir Sinh"
+  author: "TCA Raghavan"
+  year: 2025
+  goodreads: "https://www.goodreads.com/book/show/49111553-history-men"
+
+- title: "Pure Invention: How Japan Made the Modern World"
+  author: "Matt Alt"
+  year: 2025
+  goodreads: "https://www.goodreads.com/book/show/58393493-pure-invention"
