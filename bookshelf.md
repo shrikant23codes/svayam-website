@@ -7,44 +7,32 @@ permalink: /bookshelf/
 <div class="bookshelf-wrapper">
   <div class="bookshelf-header">
     <h1>Bookshelf</h1>
-    <p class="last-updated">(Last updated: 12 Oct 2025)</p>
+    <p class="last-updated">(Last updated: 11 Feb 2026)</p>
     <p class="description">Books that I have read or am currently reading.</p>
   </div>
 
   <h2>Books Read</h2>
-  <div class="books-grid">
-    <div class="book-card">
-      <div class="book-info">
-        <h3>Around India in 80 Trains</h3>
-        <p class="author">Author Name</p>
-        <p class="year">2024</p>
+  
+  {% assign books_by_year = site.data.books | group_by: "year" | sort: "name" | reverse %}
+  
+  {% for year_group in books_by_year %}
+  <details class="year-collapsible" {% if forloop.first %}open{% endif %}>
+    <summary class="year-header">{{ year_group.name }} <span class="book-count">({{ year_group.items | size }} books)</span></summary>
+    <div class="books-grid">
+      {% for book in year_group.items %}
+      <div class="book-card">
+        <div class="book-info">
+          <h3>{{ book.title }}</h3>
+          <p class="author">{{ book.author }}</p>
+          {% if book.goodreads %}
+          <a href="{{ book.goodreads }}" target="_blank" class="goodreads-link">View on Goodreads →</a>
+          {% endif %}
+        </div>
       </div>
+      {% endfor %}
     </div>
-
-    <div class="book-card">
-      <div class="book-info">
-        <h3>Book Title 2</h3>
-        <p class="author">Author Name</p>
-        <p class="year">2024</p>
-      </div>
-    </div>
-
-    <div class="book-card">
-      <div class="book-info">
-        <h3>Book Title 3</h3>
-        <p class="author">Author Name</p>
-        <p class="year">2024</p>
-      </div>
-    </div>
-
-    <div class="book-card">
-      <div class="book-info">
-        <h3>Book Title 4</h3>
-        <p class="author">Author Name</p>
-        <p class="year">2024</p>
-      </div>
-    </div>
-  </div>
+  </details>
+  {% endfor %}
 </div>
 
 <style>
@@ -85,6 +73,43 @@ permalink: /bookshelf/
   font-weight: 600;
   margin-bottom: 30px;
   margin-top: 40px;
+}
+
+.year-collapsible {
+  margin-bottom: 30px;
+}
+
+.year-header {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.year-header:hover {
+  background-color: #e8e8e8;
+}
+
+.year-header::-webkit-details-marker {
+  display: none;
+}
+
+.book-count {
+  font-size: 0.8em;
+  color: #666;
+  font-weight: 400;
+}
+
+.year-collapsible[open] .year-header {
+  margin-bottom: 20px;
 }
 
 .books-grid {
@@ -141,6 +166,20 @@ permalink: /bookshelf/
   font-size: 0.9em;
   color: #aaa;
   margin: 5px 0 0 0;
+}
+
+.goodreads-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.goodreads-link:hover {
+  text-decoration: underline;
+  color: #0052a3;
 }
 
 /* Responsive for tablets */
