@@ -3,6 +3,7 @@ layout: summary
 book_title: "Around India in 80 Trains"
 author: Monisha Rajesh
 category: book-summary
+date: 2026-02-07
 ---
 
 Taking down some notes about things that I learnt, observed while reading this book.

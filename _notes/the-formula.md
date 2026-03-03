@@ -1,8 +1,9 @@
 ---
 layout: summary
-book_title: "The Formula:"
+book_title: "The Formula"
 author: Joshua Robinson and Jonathan Clegg
 category: book-summary
+date: 2026-02-07
 ---
 
 Taking down some notes about things that I learnt, observed while reading this book.
