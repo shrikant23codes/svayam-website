@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Welcome!!"
+date:   2026-02-04 12:18:24 +0530
+---
+
+Welcome to my blog! Here I would be documenting things I read: books, articles, concalls, annual reports, pdfs, etc. Things that I listen or watch: podcasts, youtube videos, etc. And also things that I do: projects, work, etc.
+
+This is more like a personal journal, sharing my learnings, thoughts and observations. I hope that it will be useful for someone else as well. I will try to keep it updated regularly.

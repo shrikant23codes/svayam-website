@@ -12,9 +12,12 @@ permalink: /notes/
       <span class="toggle-icon">▼</span>
     </button>
     <div class="widget-content">
-      <div class="content-item"><a href="{{ site.baseurl }}/notes/around-india-in-80-trains/">Around India in 80 Trains By Monisha Rajesh</a></div>
-      <div class="content-item"><a href="{{ site.baseurl }}/notes/the-formula/">The Formula by Joshua Robinson and Jonathan Clegg</a></div>
-      <div class="content-item"><a href="{{ site.baseurl }}/notes/monuments-men/">📄 Monuments Men</a></div>
+      {% assign book_notes = site.notes | where: "category", "book-summary" %}
+      {% for note in book_notes %}
+      <div class="content-item">
+        <a href="{{ note.url | relative_url }}">{{ note.book_title | default: note.title }}</a>
+      </div>
+      {% endfor %}
     </div>
   </div>
 
@@ -35,9 +38,12 @@ permalink: /notes/
       <span class="toggle-icon">▼</span>
     </button>
     <div class="widget-content" style="display: none;">
-        <div class="content-item"><a href="{{ site.baseurl }}/notes/concall-chemplast-q2-fy26/">Chemplast Sanmar(CHEMPLASTS) Q2FY26</a></div>
-      <div class="content-item">Chemplast Sanmar(CHEMPLASTS) Q2FY26</div>
-      <div class="content-item">Rossari Biotech Q2 FY 25/26</div>
+    {% assign concall_notes = site.notes | where: "category", "concall-ar-notes" %}
+    {% for note in concall_notes %}
+    <div class="content-item">
+      <a href="{{ note.url | relative_url }}">{{ note.book_title | default: note.title }}</a>
+    </div>
+    {% endfor %}
     </div>
   </div>
 </div>

@@ -1,12 +1,13 @@
 ---
 layout: summary
 book_title: "Chemplast Sanmar(CHEMPLASTS) Q2FY26"
-category: concall-notes
+category: concall-ar-notes
+date: 2026-02-07
 ---
 
 To get a fresh perspective on the company after a long gap I have been going through the last quarter concalls of some of the companies that I follow. Given the upcoming Q3FY26 concall, right now going through the Q2FY26 concall, starting with CHEMPLASTS.
 
-**Disclaimer**: These are my notes from the concall—I may have misunderstood some points or gotten numbers wrong. Happy to correct any errors.
+**Disclaimer**: These are my notes from the concall. I may have misunderstood some points or gotten numbers wrong. Happy to correct any errors.
 
 Notes:
 - Import of Suspensive PVC (S-PVC) from China a major competition.
