@@ -31,10 +31,17 @@ What makes this truly AI-native — and not just a CLI with a chat wrapper — i
 
 I also built a session summary skill that reconstructs the entire session state from conversation logs — a structured audit trail of every operation, failure, and fix.
 
+## Human-in-the-loop visibility
+
+The agent before running each command, it surfaces the exact parameters and a 1–2 line explanation of what the command does and its expected execution time — giving engineers a moment to review.
+
+Engineers can also check progress at any point via a summary command, which prints a structured view of what has completed and what remains. This surfaces the essential details that previously got buried in kernel logs.
+
 ## Impact
 
 - **Hours to minutes**: The full workflow completes in a single conversational session.
 - **Zero context switching**: Everything happens in one terminal — no more toggling between UI, wiki, portals, and catalogs.
 - **Self-healing reduces escalations**: Failures that previously required oncall help are resolved by the agent inline.
+- **Human-in-the-loop visibility**: Engineers stay informed at every step — no more digging through logs to understand what happened.
 - **Composable by design**: Each skill runs independently — add a single source without re-running the full workflow.
 - **No platform changes required**: The plugin integrates at the CLI layer with zero modifications to the underlying platform.
