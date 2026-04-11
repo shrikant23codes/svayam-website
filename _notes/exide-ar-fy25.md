@@ -10,9 +10,6 @@ Notes on AR of Exide for FY24-25
 **Disclaimer**: These are my notes from the report. I may have misunderstood some points or gotten numbers wrong. Happy to correct any errors.
 
 # Products of Exide
-<!-- <p align="center">
-  <img src="/assets/images/exide-products.png" />
-</p> -->
 <p align="center">
   <img src="{{ '/assets/images/exide-products.png' | relative_url }}" alt="Exide products" />
 </p>
