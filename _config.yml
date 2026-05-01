@@ -44,6 +44,7 @@ header_pages:
   - notes.md
   - projects.md
   - links.md
+  - about.markdown
 
 sass:
   sass_dir: _sass
