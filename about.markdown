@@ -9,9 +9,9 @@ permalink: /about/
 <p class="about-bio">Staff-level backend engineer with 9 years building distributed systems, cloud-native infrastructure, and microservices at scale. At LinkedIn, led technical architecture for Darwin platform: Kubernetes-native systems, production backend services, and high-throughput streaming pipelines. At Flipkart, built and scaled backend systems for high-stakes financial flows: ad budgeting pipelines, invoicing automation, and data infrastructure across multiple DCs, while owning performance engineering at Big Billion Day scale.  Comfortable driving roadmap and system design decisions independently in ambiguous, fast-moving environments.</p>
 
 <div class="about-connect">
-  <a href="mailto:jiturishrikant@gmail.com" class="about-connect-link">
+  <a href="mailto:jiturishrikant&#64;gmail&#46;com" class="about-connect-link">
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,12 2,6"></polyline></svg>
-    jiturishrikant@gmail.com
+    jiturishrikant <span class="about-email-at">[at]</span> gmail<span class="about-email-at">[dot]</span>com
   </a>
   <a href="https://linkedin.com/in/shrikant-jituri-b7315095" class="about-connect-link" target="_blank" rel="noopener">
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
