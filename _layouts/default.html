@@ -25,6 +25,17 @@
 
   {%- include footer.html -%}
 
+  <script>
+    document.querySelectorAll('code.language-mermaid').forEach(function(el) {
+      var div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = el.textContent;
+      el.parentNode.replaceWith(div);
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({ startOnLoad: true });</script>
+
 </body>
 
 </html>
