@@ -21,8 +21,8 @@
 title: Shrikant's Kriti-Sangraha
 description: >- # this means to ignore newlines until "baseurl:"
    A personal repository of works, reflecting a journey of constant creation.
-baseurl: "/svayam-website" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://shrikantj.dev"
+baseurl: ""
 
 # Build settings
 theme: minima
@@ -44,6 +44,7 @@ header_pages:
   - notes.md
   - projects.md
   - links.md
+  - about.markdown
 
 sass:
   sass_dir: _sass
