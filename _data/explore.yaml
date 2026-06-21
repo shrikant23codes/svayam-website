@@ -1,0 +1,59 @@
+- title: "On AI Hardware"
+  type: "blog"
+  source: "Category Ventures"
+  creator: "Shri Kolanukuduru"
+  url: "https://www.categoryvc.com/writing/where-the-ai-hardware-market-is"
+  added: 2026-06-21
+  status: "queued"
+  notes: "AI hardware opportunities are organizing around memory bottlenecks across chips, serving engines, KV cache, and packaging."
+
+- title: "Handling Overload"
+  type: "blog"
+  source: "Google SRE Book"
+  url: "https://sre.google/sre-book/handling-overload/"
+  added: 2026-06-21
+  status: "queued"
+  notes: "Concise guidance on what production systems should consider when handling overload."
+
+- title: "Training an Agentic Router for Optimal Cost-Performance on SWE Tasks"
+  type: "blog"
+  source: "Applied Compute"
+  url: "https://www.appliedcompute.com/research/training-an-agentic-router"
+  added: 2026-06-21
+  status: "queued"
+  notes: "How a small router can choose the best coding model per SWE task to improve quality without paying the highest default cost."
+
+- title: "What we’ve learned building cloud agents"
+  type: "blog"
+  source: "Cursor"
+  creator: "Josh Ma"
+  url: "https://cursor.com/blog/cloud-agent-lessons"
+  added: 2026-06-21
+  status: "queued"
+  notes: "Practical lessons from building cloud agents: environment quality, durable execution, and knowing when the harness should step back."
+
+- title: "The GPU Myth: State of AI Compute 2026"
+  type: "podcast"
+  source: "YouTube"
+  creator: "Stephen Balaban"
+  url: "https://www.youtube.com/watch?v=0NttU4CbyVs"
+  added: 2026-06-21
+  status: "queued"
+  notes: "A look at the real constraints shaping AI compute in 2026, beyond the usual GPU supply narrative."
+
+- title: "The best AI agents are simpler than you think"
+  type: "podcast"
+  source: "YouTube"
+  creator: "Head of Product at Sierra"
+  url: "https://www.youtube.com/watch?v=uCKhOmth2ms"
+  added: 2026-06-21
+  status: "queued"
+  notes: "Why effective AI agents may come more from tighter product design and simpler workflows than extra complexity."
+
+- title: "how to enter side doors"
+  type: "blog"
+  source: "Velvet Noise"
+  url: "https://velvetnoise.substack.com/p/how-to-enter-side-doors"
+  added: 2026-06-21
+  status: "done"
+  notes: "Finding job opportunities, and work opportunities more broadly, through different doors."

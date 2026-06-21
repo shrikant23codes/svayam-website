@@ -1,0 +1,25 @@
+<article class="explore-item" data-type="{{ include.item.type | default: 'other' }}" data-status="{{ include.status | default: include.item.status | default: 'queued' }}">
+  <div class="explore-item-main">
+    <h3>
+      {%- if include.item.url -%}
+      <a href="{{ include.item.url }}" target="_blank" rel="noopener">{{ include.item.title }}</a>
+      {%- else -%}
+      {{ include.item.title }}
+      {%- endif -%}
+    </h3>
+    <p>
+      <span>{{ include.item.type | default: "other" | capitalize }}</span>
+      {%- if include.item.source %}<span>{{ include.item.source }}</span>{% endif -%}
+      {%- if include.item.creator %}<span>{{ include.item.creator }}</span>{% endif -%}
+    </p>
+  </div>
+  <div class="explore-item-meta">
+    {%- if include.item.added -%}
+    <time datetime="{{ include.item.added | date_to_xmlschema }}">{{ include.item.added | date: "%d %b %Y" }}</time>
+    {%- endif -%}
+    <span>{{ include.status_label | default: include.item.status | default: "queued" | capitalize }}</span>
+  </div>
+  {%- if include.item.notes -%}
+  <p class="explore-notes">{{ include.item.notes }}</p>
+  {%- endif -%}
+</article>
