@@ -7,7 +7,7 @@ permalink: /bookshelf/
 <div class="bookshelf-wrapper">
   <div class="bookshelf-header">
     <h1>Bookshelf</h1>
-    <p class="last-updated">(Last updated: 11 Feb 2026)</p>
+    <p class="last-updated">(Last updated: 21 Jun 2026)</p>
     <p class="description">Books that I have read or am currently reading.</p>
   </div>
 

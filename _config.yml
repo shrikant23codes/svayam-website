@@ -41,6 +41,7 @@ collections:
 header_pages:
   - blog.md
   - bookshelf.md
+  - explore.md
   - notes.md
   - projects.md
   - links.md
