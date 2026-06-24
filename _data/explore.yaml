@@ -1,3 +1,54 @@
+- title: "Nikesh Arora on The Future of Token Costs | Memory Becoming the Moat & Why Enterprise AI Isn't Ready"
+  type: "podcast"
+  source: "YouTube"
+  creator: "20vc with Harry Stebbings"
+  url: "https://www.youtube.com/watch?v=v4GN1q7HX1Y"
+  added: 2026-06-24
+  status: "queued"
+
+- title: "Why AI Labs With Unlimited GPUs Still Fail — Anjney Midha, AMP"
+  type: "podcast"
+  source: "YouTube"
+  creator: "Latent Space"
+  url: "https://www.youtube.com/watch?v=h5dlIPM0X18"
+  added: 2026-06-24
+  status: "queued"
+
+- title: "How Xiaomi's smart factory stores system interaction logs on GreptimeDB"
+  type: "blog"
+  source: "Greptime"
+  url: "https://greptime.com/blogs/2026-06-22-xiaomi-factory-log-case"
+  added: 2026-06-24
+  status: "queued"
+
+- title: "Stop Maxing Out the Context Window"
+  type: "blog"
+  source: "Debasish Ghosh"
+  url: "https://www.linkedin.com/pulse/stop-maxing-out-context-window-debasish-ghosh-n9tec/"
+  added: 2026-06-24
+  status: "queued"
+
+- title: "How to walk through walls"
+  type: "blog"
+  source: "Henrik Karlsson"
+  url: "https://www.henrikkarlsson.xyz/p/hacker-mindset"
+  added: 2026-06-24
+  status: "queued"
+
+- title: "The Hidden Economics of LLM Inference"
+  type: "blog"
+  source: "Hebbia"
+  url: "https://www.hebbia.com/blog/the-hidden-economics-of-llm-inference"
+  added: 2026-06-24
+  status: "queued"
+
+- title: "The feedback loops behind Kubernetes"
+  type: "blog"
+  source: "PlanetScale"
+  url: "https://planetscale.com/blog/the-feedback-loops-behind-kubernetes"
+  added: 2026-06-24
+  status: "queued"
+
 - title: "On AI Hardware"
   type: "blog"
   source: "Category Ventures"
@@ -23,7 +74,7 @@
   status: "queued"
   notes: "How a small router can choose the best coding model per SWE task to improve quality without paying the highest default cost."
 
-- title: "What we’ve learned building cloud agents"
+- title: "What we've learned building cloud agents"
   type: "blog"
   source: "Cursor"
   creator: "Josh Ma"
@@ -34,7 +85,7 @@
 
 - title: "The GPU Myth: State of AI Compute 2026"
   type: "podcast"
-  source: "YouTube"
+  source: "The MAD Podcast"
   creator: "Stephen Balaban"
   url: "https://www.youtube.com/watch?v=0NttU4CbyVs"
   added: 2026-06-21
@@ -43,7 +94,7 @@
 
 - title: "The best AI agents are simpler than you think"
   type: "podcast"
-  source: "YouTube"
+  source: "LangChain"
   creator: "Head of Product at Sierra"
   url: "https://www.youtube.com/watch?v=uCKhOmth2ms"
   added: 2026-06-21
