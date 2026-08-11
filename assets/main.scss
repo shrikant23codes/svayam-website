@@ -314,8 +314,17 @@ $on-laptop: 800px !default;
   font-size: 1.25rem;
   line-height: 1.8;
   text-align: justify;
-  
+
   p {
+    margin-bottom: 1.5rem;
+  }
+
+  iframe {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    display: block;
     margin-bottom: 1.5rem;
   }
 }
